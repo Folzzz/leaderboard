@@ -25,8 +25,8 @@ const leaderBoard = () => {
             <span class="score-value">${result.score}</span>
             <span class="share-score">
                 share:
-                <a href="http://facebook.com/sharer/sharer.php?u=https://www.dev.to" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/intent/tweet?text=${shareScore(result.first_name,result.score)}&url=https://dev.to&hashtags=hng,hngIntership" target="_blank" class="fa fa-twitter"></a>
+                <a href="http://facebook.com/sharer/sharer.php?u=https://www.leaderboard-hng.herokuapp.com" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/intent/tweet?text=${shareScore(result.first_name,result.score)}&url=https://www.leaderboard-hng.herokuapp.com&hashtags=hng,hngIntership" target="_blank" class="fa fa-twitter"></a>
           </span>
         </p>
       </div>`
