@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     color: #fff;
     font-family: 'Montserrat',helvetica ,sans-serif;
-    background: linear-gradient(-90deg, #8676ff, #ff708b, #383874);
+    background: linear-gradient(-90deg, #ff708b, #383874);
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     border-radius: 7px;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .9);
     -webkit-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .9);
-    -moz-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .9); 
+    -moz-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .9);
 }
 
 
@@ -75,7 +75,7 @@ body {
     background: #3B5998;
     color: white;
 }
-  
+
   /* Twitter */
 .fa-twitter {
     background: #55ACEE;
