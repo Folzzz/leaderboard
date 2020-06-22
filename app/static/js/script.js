@@ -14,7 +14,6 @@ const leaderBoard = () => {
                 share:
                 <a href="http://facebook.com" class="fa fa-facebook"></a>
                 <a href="http://twitter.com" class="fa fa-twitter"></a>
-                <a href="http://instagram.com"  class="fa fa-instagram"></a>
             </span>
         </p>
       </div>`
