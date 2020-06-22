@@ -45,10 +45,11 @@ body {
 .individual:nth-child(2),
 .individual:nth-child(3) {
     background-color: rgba(0, 255, 0, .5);
-    
+
 }
 .individual {
     margin: 1em 0;
+    cursor: pointer;
 }
 .individual > p {
     padding: 1em;
