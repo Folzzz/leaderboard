@@ -7,14 +7,14 @@ html, body {
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-family: 'Montserrat',helvetica ,sans-serif;
     background: linear-gradient(-90deg, #ff708b, #383874);
 }
 
 .container {
-    width: 90vw;
+    width: 92vw;
     height: 90%;
     margin: 2em auto;
     background-color: rgba(0, 0, 0, .7);
@@ -55,31 +55,40 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     transition: all 500ms ease-in-out;
 }
 
 .individual > p:hover {
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(0, 0, 0, .9);
     font-size: 1.1rem;
     background-color: #fff;
     border-radius: 5px;
-    transform : scaleX(1.1) translateY(-10px);
+    transform : scaleX(1.04) translateY(-10px);
 }
 .individual:first-child > p:hover,
 .individual:nth-child(2) > p:hover,
 .individual:nth-child(3) > p:hover {
     background-color: rgba(0, 255, 0, 1);
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(0, 0, 0, .9);
     font-size: 1.1rem;
     border-radius: 5px;
-    transform : scaleX(1.1);
+    transform : scaleX(1.04);
 }
 
 .position, .score-value, .score {
-    margin-right: .5em;
+    margin-right: .3em;
+}
+.position {
+    width: 45%;
+}
+.score-value {
+    width: 10%;
+}
+.score {
+    width: 45%;
 }
 .share-score > .fa {
     padding: 5px;
@@ -109,8 +118,8 @@ body {
 
 
 /* media que */
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .score {
         margin: .5em 1em 0 1em;
     }
-}
+} */
