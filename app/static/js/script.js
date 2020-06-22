@@ -10,12 +10,15 @@ const sortByPoints = (a, b) => {
 }
 
 const leaderBoard = () => {
+  let loader = `<div id="loader"></div>`
+  leaderBoardDiv.innerHTML = loader;
   fetch(url).then(
     response => response.json()
   ).then(results => {
+    let list = ""
     results.sort(sortByPoints).forEach((result, index) => {
-      console.log(result)
-      leaderBoardDiv.innerHTML += `<div class="individual">
+      list +=
+       `<div class="individual">
         <p>
           <img src=${result.image} />
           <span class="position">${index + 1}. ${result.first_name} ${result.last_name}  </span>
@@ -27,6 +30,7 @@ const leaderBoard = () => {
           </span>
         </p>
       </div>`
+      leaderBoardDiv.innerHTML = list;
     })
   })
 }
