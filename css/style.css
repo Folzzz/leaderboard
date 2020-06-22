@@ -60,7 +60,7 @@ body {
 .position, .score-value, .score {
     margin-right: .5em;
 }
-.score > .fa {
+.share-score > .fa {
     padding: 5px;
     font-size: 15px;
     width: 15px;
@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-.score > .fa:hover {
+.share-score > .fa:hover {
     opacity: 0.7;
 }
 .fa-facebook {
