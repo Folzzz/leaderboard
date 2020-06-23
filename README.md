@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# HNGi7 LeaderBoard Project
+My team and I worked on a leaderboard project showing the list of top interns using HNG-i7 as a case study.
 
-You can use the [editor on GitHub](https://github.com/Folzzz/leaderboard/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This web application makes it easy to get and know the top interns in the workspace as they are listed according to the points acquired. We started by getting a template that best presents the content, then we generated a dummy JSON file (has requested, the correct data will be fixed in when the access is given) and called it from our GitHub repository to our javascript file and was implemented in the already available design to make it functional.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Technology Used:
 
-### Markdown
+- HTML
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- CSS
 
-```markdown
-Syntax highlighted code block
+- JavaScript
 
-# Header 1
-## Header 2
-### Header 3
+API URL: https://gist.githubusercontent.com/dhatGuy/5638e191aceb026df01f08e1c1674d86/raw/e00a27889ff5bb0402111187d76b3cbdf98b6b4f/data.json
 
-- Bulleted
-- List
+Contributors
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Folzzz/leaderboard/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+   - Name: Olaniyan Foluso | Slack Username: @Folu | GitHub Username: [@Folzzz](https://github.com/Folzzz)
+   - Name: Ajibade Samuel | Slack Username: @AjibsBaba | GitHub Username: [@ajibsBaba](https://github.com/AjibsBaba)
+   - Name: Odunsi Joseph | SlackUsename: @Odunsi | GitHub Username: [@dhatguy](https://github.com/dhatGuy)
