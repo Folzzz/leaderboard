@@ -34,6 +34,8 @@ body {
     -moz-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .9);
 }
 
+/* leader board container and header style */
+
 #loader{
     width: 80px;
     height: 80px;
@@ -58,8 +60,10 @@ body {
     padding: 1em 2em;
 }
 
+
+/* list of individuals style */
 .leaderboard-list {
-    padding: 1em;
+    padding: .3em;
 }
 
 .individual:first-child,
@@ -71,9 +75,10 @@ body {
 .individual {
     margin: 1em 0;
     cursor: pointer;
+    
 }
 .individual > p {
-    padding: 1em;
+    padding: .3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +88,6 @@ body {
 .individual > p:hover {
     font-weight: 700;
     color: rgba(0, 0, 0, .9);
-    font-size: 1.1rem;
     background-color: #fff;
     border-radius: 5px;
     transform : scaleX(1.04) translateY(-10px);
@@ -94,13 +98,12 @@ body {
     background-color: rgba(0, 255, 0, 1);
     font-weight: 700;
     color: rgba(0, 0, 0, .9);
-    font-size: 1.1rem;
     border-radius: 5px;
     transform : scaleX(1.04);
 }
 
 .position, .score-value, .score {
-    margin-right: .3em;
+    margin-right: .1em;
 }
 .position {
     width: 45%;
@@ -111,6 +114,8 @@ body {
 .score {
     width: 45%;
 }
+
+/* social icon styling */
 .share-score > .fa {
     padding: 5px;
     font-size: 15px;
@@ -127,7 +132,6 @@ body {
     color: white;
 }
 
-  /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -137,10 +141,3 @@ body {
     color: white;
 }
 
-
-/* media que */
-@media (max-width: 425px) {
-    .score {
-        margin: .5em 1em 0 1em;
-    }
-}
