@@ -23,8 +23,8 @@ const leaderBoard = () => {
           <img src=${result.image} />
           <span class="position">${index + 1}. ${result.first_name} ${result.last_name}  </span>
             <span class="score-value">${result.score}</span>
-            <span class="share-score">
-                share:
+            <span class="share-score fa fa-share-alt">
+                
                 <a href="http://facebook.com/sharer/sharer.php?u=https://www.leaderboard-hng.herokuapp.com" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/intent/tweet?text=${shareScore(result.first_name,result.score)}&url=https://www.leaderboard-hng.herokuapp.com&hashtags=hng,hngIntership" target="_blank" class="fa fa-twitter"></a>
           </span>
